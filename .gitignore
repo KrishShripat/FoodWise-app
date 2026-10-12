@@ -1,0 +1,25 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & credentials
+.env
+*.token
+
+# Agent & IDE caches
+.agents/
+.claude/
+.idea/
+.vscode/
+
+# Logs & temp files
+*.log
+scratch/
+.system_generated/
